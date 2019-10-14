@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Work Day Scheduler</title>
+  </head>
+
+  <body>
+    <header class="jumbotron">
+      <h1 class="display-3">Work Day Scheduler</h1>
+      <p class="lead">A simple calendar app for scheduling your work day</p>
+      <p id="currentDay" class="lead"></p>
+    </header>
+    <!-- Timeblocks go here -->
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-1" id="time-block">9am</div>
+        <div class="col-xl-10">
+          <textarea name="" id="textArea9" cols="100" rows="1"> </textarea>
+        </div>
+        <div class="col-xl-1">
+          <!-- <button type="button" class="btn btn-success">Success</button> -->
+          <button data-save id="save9" class="saveBtn">Save</button>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-xl-1" id="time-block">10am</div>
+        <div class="col-xl-10">
+          <textarea name="" id="textArea10" cols="100" rows="1"> </textarea>
+        </div>
+        <div class="col-xl-1">
+          <button data-save id="save10" class="saveBtn">Save</button>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-xl-1" id="time-block">11am</div>
+        <div class="col-xl-10">
+          <textarea name="" id="textArea11" cols="100" rows="1"> </textarea>
+        </div>
+        <div class="col-xl-1">
+          <button data-save id="save11" class="saveBtn">Save</button>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-xl-1" id="time-block">12 noon</div>
+        <div class="col-xl-10">
+          <textarea name="" id="textArea12" cols="100" rows="1"> </textarea>
+        </div>
+        <div class="col-xl-1">
+          <button data-save id="save12" class="saveBtn">Save</button>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-xl-1" id="time-block">1pm</div>
+        <div class="col-xl-10">
+          <textarea name="" id="textArea1" cols="100" rows="1"> </textarea>
+        </div>
+        <div class="col-xl-1">
+          <button data-save id="save1" class="saveBtn">Save</button>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-xl-1" id="time-block">2pm</div>
+        <div class="col-xl-10">
+          <textarea name="" id="textArea2" cols="100" rows="1"> </textarea>
+        </div>
+        <div class="col-xl-1">
+          <button data-save id="save2" class="saveBtn">Save</button>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-xl-1" id="time-block">3pm</div>
+        <div class="col-xl-10">
+          <textarea name="" id="textArea3" cols="100" rows="1"> </textarea>
+        </div>
+        <div class="col-xl-1">
+          <button data-save id="save3" class="saveBtn">Save</button>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-xl-1" id="time-block">4pm</div>
+        <div class="col-xl-10">
+          <textarea name="notes" id="textArea4" cols="100" rows="1"> </textarea>
+        </div>
+        <div class="col-xl-1">
+          <button data-save id="save4" class="saveBtn">Save</button>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-xl-1" id="time-block">5pm</div>
+        <div class="col-xl-10">
+          <textarea name="" id="textArea5" cols="100" rows="1"> </textarea>
+        </div>
+        <div class="col-xl-1">
+          <button data-save id="save5" class="saveBtn">Save</button>
+        </div>
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
