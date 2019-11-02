@@ -30,7 +30,7 @@
     </header>
     <!-- Timeblocks go here -->
     <div class="container">
-      <div class="row">
+      <div id="hour-9" class="row">
         <div class="col-xl-1" id="time-block">9am</div>
         <div class="col-xl-10">
           <textarea name="" id="textArea9" cols="100" rows="1"> </textarea>
@@ -41,7 +41,7 @@
         </div>
       </div>
 
-      <div class="row">
+      <div id="hour-10" class="row">
         <div class="col-xl-1" id="time-block">10am</div>
         <div class="col-xl-10">
           <textarea name="" id="textArea10" cols="100" rows="1"> </textarea>
@@ -51,7 +51,7 @@
         </div>
       </div>
 
-      <div class="row">
+      <div id="hour-11" class="row">
         <div class="col-xl-1" id="time-block">11am</div>
         <div class="col-xl-10">
           <textarea name="" id="textArea11" cols="100" rows="1"> </textarea>
@@ -61,7 +61,7 @@
         </div>
       </div>
 
-      <div class="row">
+      <div id="hour-12" class="row">
         <div class="col-xl-1" id="time-block">12 noon</div>
         <div class="col-xl-10">
           <textarea name="" id="textArea12" cols="100" rows="1"> </textarea>
@@ -71,7 +71,7 @@
         </div>
       </div>
 
-      <div class="row">
+      <div id="hour-1" class="row">
         <div class="col-xl-1" id="time-block">1pm</div>
         <div class="col-xl-10">
           <textarea name="" id="textArea1" cols="100" rows="1"> </textarea>
@@ -81,7 +81,7 @@
         </div>
       </div>
 
-      <div class="row">
+      <div id="hour-2" class="row">
         <div class="col-xl-1" id="time-block">2pm</div>
         <div class="col-xl-10">
           <textarea name="" id="textArea2" cols="100" rows="1"> </textarea>
@@ -91,7 +91,7 @@
         </div>
       </div>
 
-      <div class="row">
+      <div id="hour-3" class="row">
         <div class="col-xl-1" id="time-block">3pm</div>
         <div class="col-xl-10">
           <textarea name="" id="textArea3" cols="100" rows="1"> </textarea>
@@ -101,7 +101,7 @@
         </div>
       </div>
 
-      <div class="row">
+      <div id="hour-4" class="row">
         <div class="col-xl-1" id="time-block">4pm</div>
         <div class="col-xl-10">
           <textarea name="notes" id="textArea4" cols="100" rows="1"> </textarea>
@@ -111,7 +111,7 @@
         </div>
       </div>
 
-      <div class="row">
+      <div id="hour-5" class="row hour5">
         <div class="col-xl-1" id="time-block">5pm</div>
         <div class="col-xl-10">
           <textarea name="" id="textArea5" cols="100" rows="1"> </textarea>
@@ -123,6 +123,10 @@
     </div>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
-    <script src="./script.js"></script>
+    <script src="script.js"></script>
+    <script src="moment.js"></script>
+<script>
+    moment().format();
+</script>
   </body>
 </html>
