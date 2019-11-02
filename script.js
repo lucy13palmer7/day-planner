@@ -1,80 +1,65 @@
 $(document).ready(function() {
-  let savedInputs = [];
-
-  $("#textArea9").text(savedInputs);
-  $("#save9").no('click',(function() {
-    $(this).attr('data-sava')
-    localStorage.setItem(savedInputs, JSON.stringify(savedInputs));
-    savedInputs.push($("#textArea9").val()); 
+  console.log("jquery is loaded");
+  $("#textArea9").text(localStorage.getItem("textArea9"));
+  $("#save9").on("click", function() {
+    var userInput = $("#textArea9").val();
+    console.log(userInput);
+    localStorage.setItem("textArea9", userInput);
   });
 
-  $("#textArea10").text(savedInputs);
-  $("#save10").no('click', (function () {
-    $(this).attr('data-sava')
-    localStorage.setItem(savedInputs, JSON.stringify(savedInputs));
-    savedInputs.push($("#textArea9").val());
+  $("#textArea10").text(localStorage.getItem("textArea10"));
+  $("#save10").on("click", function() {
+    var userInput = $("#textArea10").val();
+    console.log(userInput);
+    localStorage.setItem("textArea10", userInput);
   });
 
-  console.log(localStorage);
-
-  $("#textArea11").text(savedInputs);
-  $("#save11").no('click', (function () {
-    $(this).attr('data-sava')
-    localStorage.setItem(savedInputs, JSON.stringify(savedInputs));
-    savedInputs.push($("#textArea9").val());
+  $("#textArea11").text(localStorage.getItem("textArea11"));
+  $("#save11").on("click", function() {
+    var userInput = $("#textArea11").val();
+    console.log(userInput);
+    localStorage.setItem("textArea11", userInput);
   });
 
-  console.log(localStorage);
-
-  $("#textArea12").text(savedInputs);
-  $("#save12").no('click', (function () {
-    $(this).attr('data-sava')
-    localStorage.setItem(savedInputs, JSON.stringify(savedInputs));
-    savedInputs.push($("#textArea9").val());
+  $("#textArea12").text(localStorage.getItem("textArea12"));
+  $("#save12").on("click", function() {
+    var userInput = $("#textArea12").val();
+    console.log(userInput);
+    localStorage.setItem("textArea12", userInput);
   });
 
-  console.log(localStorage);
-
-  $("#textArea1").text(savedInputs);
-  $("#save1").no('click', (function () {
-    $(this).attr('data-sava')
-    localStorage.setItem(savedInputs, JSON.stringify(savedInputs));
-    savedInputs.push($("#textArea9").val());
+  $("#textArea1").text(localStorage.getItem("textArea1"));
+  $("#save1").on("click", function() {
+    var userInput = $("#textArea1").val();
+    console.log(userInput);
+    localStorage.setItem("textArea1", userInput);
   });
 
-  console.log(localStorage);
-
-  $("#textArea2").text(savedInputs);
-  $("#save2").no('click', (function () {
-    $(this).attr('data-sava')
-    localStorage.setItem(savedInputs, JSON.stringify(savedInputs));
-    savedInputs.push($("#textArea9").val());
+  $("#textArea2").text(localStorage.getItem("textArea2"));
+  $("#save2").on("click", function() {
+    var userInput = $("#textArea2").val();
+    console.log(userInput);
+    localStorage.setItem("textArea2", userInput);
   });
 
-  console.log(localStorage);
-
-  $("#textArea3").text(savedInputs);
-  $("#save3").no('click', (function () {
-    $(this).attr('data-sava')
-    localStorage.setItem(savedInputs, JSON.stringify(savedInputs));
-    savedInputs.push($("#textArea9").val());
+  $("#textArea3").text(localStorage.getItem("textArea3"));
+  $("#save3").on("click", function() {
+    var userInput = $("#textArea3").val();
+    console.log(userInput);
+    localStorage.setItem("textArea3", userInput);
   });
 
-  console.log(localStorage);
-
-  $("#textArea4").text(savedInputs);
-  $("#save4").no('click', (function () {
-    $(this).attr('data-sava')
-    localStorage.setItem(savedInputs, JSON.stringify(savedInputs));
-    savedInputs.push($("#textArea9").val());
+  $("#textArea4").text(localStorage.getItem("textArea4"));
+  $("#save4").on("click", function() {
+    var userInput = $("#textArea4").val();
+    console.log(userInput);
+    localStorage.setItem("textArea4", userInput);
   });
 
-  console.log(localStorage);
-
-  $("#textArea5").text(savedInputs);
-  $("#save5").no('click', (function () {
-    $(this).attr('data-sava')
-    localStorage.setItem(savedInputs, JSON.stringify(savedInputs));
-    savedInputs.push($("#textArea9").val());
+  $("#textArea5").text(localStorage.getItem("textArea5"));
+  $("#save5").on("click", function() {
+    var userInput = $("#textArea5").val();
+    console.log(userInput);
+    localStorage.setItem("textArea5", userInput);
   });
 });
